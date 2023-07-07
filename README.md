@@ -3,9 +3,10 @@ Author: Anthony Baum
 
 Contact email: wxbaum@gmail.com
 
-## CAUTION
+## Note
 **If you're reading this after June 2023, this code no longer works after major changes to Twitter's API. If you have access to the paid tier API service, you might find this serviceable with some refactoring.**
 
+## Overview
 The primary function of this script is to bulk-identify a set of Twitter users that match given search keywords on Google. 
 
 By using a Google search for user-created Twitter lists, we can quasi-crowdsource a large number of accounts by matching lists to the keywords being searched for. Using Tweepy to access the user objects of each user in the lists, a dataset of users tailored for any application can be generated with relative ease. 
