@@ -1,7 +1,8 @@
 # Scraping Twitter Lists Using Google Search and Tweepy
 Author: Anthony Baum
-
 Contact email: wxbaum@gmail.com
+
+**If you're reading this after June 2023, this code no longer works after major changes to Twitter's API. If you have access to the paid tier API service, you might find this serviceable with some refactoring.**
 
 The primary function of this script is to bulk-identify a set of Twitter users that match given search keywords on Google. 
 
